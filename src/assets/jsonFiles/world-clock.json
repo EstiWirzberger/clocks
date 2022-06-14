@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "base": "ILS",
+  "time": {
+    "Bangkok": 4,
+    "NewYork": -7,
+    "London": -2
+  }
+}

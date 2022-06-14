@@ -1,0 +1,45 @@
+<div class="clockPage">
+  <div class="first">
+    <div class="clock">
+      <h1>Israel</h1>
+      <app-analog-clock
+        [timeDifference]="IsraelTimeDifference"
+      ></app-analog-clock>
+      <app-digital-clock
+        [timeDifference]="IsraelTimeDifference"
+      ></app-digital-clock>
+    </div>
+    <div class="clock">
+      <h1>London</h1>
+      <app-analog-clock
+        [timeDifference]="LondonTimeDifference"
+      ></app-analog-clock>
+      <app-digital-clock
+        [timeDifference]="LondonTimeDifference"
+      ></app-digital-clock>
+    </div>
+  </div>
+  <div class="second">
+    <div class="clock">
+      <h1>NewYork</h1>
+      <app-analog-clock
+        [timeDifference]="NewYorkTimeDifference"
+      ></app-analog-clock>
+      <app-digital-clock
+        [timeDifference]="NewYorkTimeDifference"
+      ></app-digital-clock>
+    </div>
+    <div class="clock">
+      <h1>Bangkok</h1>
+      <app-analog-clock
+        [timeDifference]="BangkokTimeDifference"
+      ></app-analog-clock>
+      <app-digital-clock
+        [timeDifference]="BangkokTimeDifference"
+      ></app-digital-clock>
+    </div>
+  </div>
+</div>
+<!-- <div *ngfor="let timeObject of listTimeObjects">
+  <h1>{{ timeObject.city }}</h1>
+</div> -->

@@ -1,0 +1,23 @@
+@media screen and (min-width: 1160px) {
+  .clockPage {
+    display: flex;
+  }
+}
+@media screen and (min-width: 600px) {
+  .first,
+  .second {
+    display: flex;
+  }
+}
+.clock,
+.first,
+.second {
+  margin: 0 auto 0 auto;
+}
+h1 {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.clockPage {
+  margin-top: 40px;
+}
